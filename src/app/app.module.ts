@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
+import { ClockComponent } from './clock/clock.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClockComponent
   ],
   imports: [
     AlertModule,
