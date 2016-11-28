@@ -13,6 +13,7 @@
 /.vscode
 .project
 .classpath
+.c9/
 *.launch
 .settings/
 
@@ -23,6 +24,7 @@
 /libpeerconnection.log
 npm-debug.log
 testem.log
+yarn.lock
 /typings
 
 # e2e
