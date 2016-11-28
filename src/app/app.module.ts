@@ -6,11 +6,13 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { ClockComponent } from './clock/clock.component';
+import { CalendarComponent } from './calendar/calendar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClockComponent
+    ClockComponent,
+    CalendarComponent
   ],
   imports: [
     AlertModule,
